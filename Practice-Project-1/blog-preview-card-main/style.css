@@ -20,34 +20,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 95vh;
-    margin: 0;
+    padding: 1px;
 }
 
 .blog {
     margin: 0 auto;
-    height: 32.625rem;
-    width: 24rem;
+    max-width: 24rem;
+    height: auto;
     background-color: white;
     border: 1.5px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px #040404;
+    padding: 1.5rem;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 24px 24px;
+    margin: 0 0 1.5rem 0;
 }
 
-img {
+.image img {
     border-radius: 10px;
-    width: 336px;
-    height: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .learning {
-    margin-left: 24px;
     width: 82px;
     height: 29px;
     background-color: #F4D04E;
@@ -58,37 +55,46 @@ img {
 }
 
 .date {
-    margin: 20px 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 0.875rem;
     font-family: medium-font;
 }
 
-.tag {
-    margin: 20px 24px;
+.blog-title {
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     font-family: bold-font;
 }
 
-.data {
-    margin: 20px 24px;
+.blog-description {
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     color: #6B6B6B;
-    max-width: 20vw;
+    line-height: 1.5;
 }
 
 .profile {
     display: flex;
+    align-items: center;
 }
 
 .profile img {
     height: 32px;
     width: 32px;
-    margin: 0 12px 0 24px;
-    display: flex;
+    margin-right: 12px;
 }
 
 .name {
-    display: flex;
-    align-items: center;
     font-family: bold-font;
+}
+
+@media (max-width: 425px) {
+    .blog-title {
+        font-size: 1.25rem;
+    }
+
+    .blog-description {
+        font-size: 0.9rem;
+    }
 }
