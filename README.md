@@ -1,4 +1,6 @@
 ## Project - 1: [Practice Project 1 - Blog Preview Card](https://github.com/MEETSUTHAR9406/Frontend_Mentor/tree/main/Practice-Project-1/blog-preview-card-main)
+**See Live Demo:**  [See Demo](https://bejewelled-raindrop-eaaf39.netlify.app/)
+
 ## Project - 2: [Practice Project 2 – Social Links Profile](https://github.com/MEETSUTHAR9406/Frontend_Mentor/tree/main/Practice-Project-2/social-links-profile-main)
 
 ## Overview 
