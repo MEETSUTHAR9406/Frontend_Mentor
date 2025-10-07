@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: InterRegular, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 24rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: clamp(1.5rem, 5vw, 2.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.profile-card h1 {
+    font-family: InterSemiBold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card .location {
+    color: hsl(75, 94%, 57%);
+    font-family: InterBold;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-card .bio {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-links a {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 8px;
+    font-family: InterBold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color o.3s ease;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
