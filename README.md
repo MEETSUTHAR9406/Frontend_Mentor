@@ -2,6 +2,7 @@
 **See Live Demo:**  [See Demo](https://bejewelled-raindrop-eaaf39.netlify.app/)
 
 ## Project - 2: [Practice Project 2 – Social Links Profile](https://github.com/MEETSUTHAR9406/Frontend_Mentor/tree/main/Practice-Project-2/social-links-profile-main)
+**See Live Demo:** [See Demo](https://candid-gumdrop-528f1f.netlify.app/)
 
 ## Overview 
 The main goal of this project is to improve my HTML and CSS skills by practicing fundamentals such as:
