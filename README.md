@@ -1,19 +1,13 @@
-# Blog Preview Card
+## Project - 1: [Practice Project 1 - Blog Preview Card](https://github.com/MEETSUTHAR9406/Frontend_Mentor/tree/main/Practice-Project-1/blog-preview-card-main)
+## Project - 2: [Practice Project 2 – Social Links Profile](https://github.com/MEETSUTHAR9406/Frontend_Mentor/tree/main/Practice-Project-2/social-links-profile-main)
 
-## Overview
-This project is a **Blog Preview Card** built using **HTML & CSS only**.  
+## Overview 
 The main goal of this project is to improve my HTML and CSS skills by practicing fundamentals such as:
 - HTML structure and semantic tags  
 - CSS box model, flexbox, and layout techniques  
 - Responsive design basics  
 
 I used this project from [Frontend Mentor](https://www.frontendmentor.io) to challenge myself and enhance my coding abilities.
-
----
-
-## Demo
-You can view a live demo of this project here:  
-"Will add after completion"
 
 ---
 
