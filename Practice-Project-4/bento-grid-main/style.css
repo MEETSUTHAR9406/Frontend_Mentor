@@ -134,3 +134,17 @@ body {
     bottom: 16%;
     pointer-events: none;
 }
+
+.box2 p{
+    font-family: var(--font);
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.box2 .x {
+    color: var(--yellow);
+}
+
+.box2 .Faster {
+    font-style: italic;
+}
