@@ -50,6 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .box1 p {
@@ -107,6 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .box2 > p{
@@ -148,6 +150,7 @@ body {
     flex-direction: column;
     overflow: hidden;
     padding: 28px 0 0 32px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .box3 .schedule {
@@ -258,6 +261,8 @@ body {
     margin-bottom: 30px;
 }
 
+/* Box-4 design */
+
 .box4 {
     background-color: var(--yellow);
     grid-area: 6 / 1 / 11 / 3;
@@ -266,6 +271,7 @@ body {
     border-radius: 20px;
     /* display: flex; */
     /* flex-direction: column; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .box4 > p {
@@ -360,24 +366,54 @@ body {
     align-self: baseline;
 }
 
+/* Box-5 design */
+
 .box5 {
     grid-area: 5 / 3 / 8 / 5;
     justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+
+.box5 .btn1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 9vw;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) -2px 2px 10px 0px;
+}
+
+.box5 > p {
+    font-family: var(--font);
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 0.9;
+}
+
+/* Box-6 design */
 
 .box6 {
     background-color: var(--yellow);
     grid-area: 5 / 5 / 8 / 7;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+
+/* Box-7 design */
 
 .box7 {
     grid-area: 8 / 3 / 11 / 5;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+
+/* Box-8 design */
 
 .box8 {
     background-color: var(--purple);
     grid-area: 8 / 5 / 11 / 9;
     color: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 0px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
