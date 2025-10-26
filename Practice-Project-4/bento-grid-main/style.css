@@ -177,22 +177,16 @@ body {
 .box5 {
     grid-area: 5 / 3 / 8 / 5;
     justify-content: center;
+    overflow: hidden;
 }
 
-.box5 .btn1 {
-    padding: 22px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    border: none;
-    width: 6.9vw;
+.box5 img {
+    width: 17.3vw;
     height: auto;
-    display: flex;
-    gap: 15px;
-    background-color: white;
-    box-shadow: rgba(17, 12, 46, 0.15) -2px 2px 10px 0px;
+    margin-bottom: 10px;
 }
 
-.box5>p {
+.box5 > p {
     font-family: var(--font);
     font-size: 23px;
     font-weight: 600;
@@ -206,58 +200,40 @@ body {
     grid-area: 5 / 5 / 8 / 7;
 }
 
+.box6 img {
+    
+}
+
 .box6 p {
     font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1;
+    line-height: 0.8;
+    letter-spacing: -1px;
     color: #333;
     margin-bottom: 10px;
-}
-
-.box6 .chat {
-    background-color: white;
-    border-radius: 12px;
-    /* overflow: hidden; */
-}
-
-.calendar-header {
-    background-color: var(--purple);
-    color: white;
-    font-family: var(--font, Arial, sans-serif);
-    font-weight: bold;
-    font-size: 0.9;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    border-radius: 12px 12px 0 0;
-}
-
-.calendar-body {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 10px;
 }
 
 /* Box-7 design */
 
 .box7 {
     grid-area: 8 / 3 / 11 / 5;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font);
-    line-height: 0.9;
+}
 
+.box7 h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
 }
 
 .box7 p {
-    font-weight: 600;
-    font-size: 3.5rem;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
-.box7 span {
-    font-size: 12px;
+.box7 img {
+    width: 8vw;
+    height: auto;
 }
 
 /* Box-8 design */
@@ -266,4 +242,19 @@ body {
     background-color: var(--purple);
     grid-area: 8 / 5 / 11 / 9;
     color: var(--white);
+    display: flex;
+    flex-direction: row;
+}
+
+.box8 img {
+    width: 10.9vw;
+    height: auto;
+}
+
+.box8 p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0.9;
+    margin-top: 30px;
+    margin-left: 20px;
 }
