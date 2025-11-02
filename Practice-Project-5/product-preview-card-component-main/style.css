@@ -1,12 +1,12 @@
 :root {
-    --primary: hsl(158, 36%, 37%);
-    --background: hsl(30, 38%, 92%);
+    --green-500: hsl(158, 36%, 37%);
+    --green-700: hsl(158, 42%, 18%);
+    --black: hsl(212, 21%, 14%);
     --white: hsl(0, 0%, 100%);
-    --text: hsl(228, 12%, 48%);
-    --title: hsl(212, 21%, 14%);
-
-    --font-body: 'Montserrat', sans-serif;
-    --font-display: 'Fraunces', serif;
+    --grey: hsl(228, 12%, 48%);
+    --bg-cream: hsl(30, 38%, 92%);
+    --font-montserrat: font-family: "Montserrat", sans-serif;
+    --font-fraunces: font-family: "Fraunces", serif;
 }
 
 * {
@@ -16,9 +16,9 @@
 }
 
 body {
-    font-family: var(--font-body);
-    background-color: var(--background);
-    color: var(--text);
+    font-family: var(--font-montserrat);
+    background-color: var(--bg-cream);
+    color: var(--black);
     font-size: 14px;
 
     display: grid;
@@ -54,8 +54,8 @@ body {
 }
 
 .product-title {
-    font-family: var(--font-display);
-    color: var(--title);
+    font-family: var(--font-fraunces);
+    color: var(--black);
     font-size: 2rem;
     line-height: 1;
 }
@@ -71,9 +71,9 @@ body {
 }
 
 .price-current {
-    font-family: var(--font-display);
+    font-family: var(--font-fraunces);
     font-size: 2rem;
-    color: var(--primary);
+    color: var(--green-500);
 }
 
 .price-original {
@@ -81,46 +81,13 @@ body {
 }
 
 .btn-add-cart {
-    background-color: hsl(158, 36%, 37%);
+    background-color: var(--green-700);
     color: var(--white);
-    font-family: var(--font-body);
+    font-family: var(--font-montserrat);
     font-weight: 700;
 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.75rem;
-
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.btn-add-cart:hover {
-    background-color: hsl(158, 42%, 18%);
-}
-
-@media (min-width: 600px) {
-    .product-card {
-        flex-direction: row;
-        max-width: 600px;
-    }
-
-    .product-image,
-    .product-content {
-        flex-basis: 50%;
-    }
-
-    .product-image img {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .product-content {
-        padding: 32px;
-        gap: 1.25rem;
-    }
 }
