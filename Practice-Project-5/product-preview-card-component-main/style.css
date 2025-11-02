@@ -6,7 +6,6 @@
     --grey: hsl(228, 12%, 48%);
     --bg-cream: hsl(30, 38%, 92%);
     --font-montserrat: font-family: "Montserrat", sans-serif;
-    --font-fraunces: font-family: "Fraunces", serif;
 }
 
 * {
@@ -33,6 +32,7 @@ body {
     background-color: var(--white);
     overflow: hidden;
     max-width: 340px;
+    border-radius: 12px;
 }
 
 .product-image img {
@@ -48,20 +48,27 @@ body {
 }
 
 .product-category {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: var(--grey);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 0.75rem;
 }
 
 .product-title {
-    font-family: var(--font-fraunces);
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1;
 }
 
 .product-description {
     line-height: 1.6;
+    opacity: 0.6;
 }
 
 .price-group {
@@ -71,17 +78,23 @@ body {
 }
 
 .price-current {
-    font-family: var(--font-fraunces);
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-size: 2rem;
     color: var(--green-500);
 }
 
 .price-original {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    opacity: 0.6;
     text-decoration: line-through;
 }
 
 .btn-add-cart {
-    background-color: var(--green-700);
+    background-color: var(--green-500);
     color: var(--white);
     font-family: var(--font-montserrat);
     font-weight: 700;
@@ -90,4 +103,37 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.75rem;
+
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-add-cart:hover {
+    background-color: var(--green-700);
+}
+
+@media (min-width: 600px) {
+    .product-card {
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .product-image,
+    .product-content {
+        flex-basis: 50%;
+    }
+
+    .product-image img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-content {
+        padding: 32px;
+        gap: 1.25rem;
+    }
 }
